@@ -1,5 +1,5 @@
-spring.application.name=ConfigServer
-server.port=9002
- 
-spring.cloud.config.server.git.uri=https://github.com/PrachiAgrwl2/FlightBooking
-spring.cloud.config.server.git.clone-on-start= true
+spring.application.name=e_server
+server.port = 8761
+eureka.client.register-with-eureka = false
+fetchRegistry=false
+server.waitTimeInMSWhenSyncEmpty=0
